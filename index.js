@@ -12,7 +12,7 @@ let redColor = chalk.red.bold;
 var prompts = {
     type: "list",
     name: "option",
-    message: "What would you like to know about me?",
+    message: "那么你想通过哪种方式了解我呢？",
     choices: [...Object.keys(resumeData), "Exit"]
   };
 
@@ -25,7 +25,7 @@ var prompts = {
         }))
     );
     console.log("\n")
-    console.log(chalk.red.bold(" \u{1F916}  Full Stack Developer") + " \n\n + Believes in possibilities and always trying to look at the positive, brighter side of the story. \n\n • Have good experience in fullstack web development. \n • Have e2e knowledge of IoT applications including edge computing and cloud.")
+    console.log(chalk.red.bold(" \u{1F916} 张枨 Student & Developer") + " \n\n + Believes in possibilities and always trying to look at the positive, brighter side of the story. \n + 相信各种可能性，总是试图看到故事积极、光明的一面。\n\n • I care a lot about building things that are genuinely useful and a pleasure to use. \n • Keep things simple, innovate and move quickly. Have empathy and make deliberate choices.")
     console.log("\n")    
     menu();  
 })();
