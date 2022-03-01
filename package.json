@@ -1,19 +1,19 @@
 {
   "name": "zhangcheng",
-  "version": "0.1.0",
+  "version": "0.1.8",
   "description": "interactive command line resume",
   "main": "./index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "resume-sunnysetia": "./.bin/global-index.js"
+    "resume-sunnysetia": ".bin/global-index.js"
   },
   "author": "sunnysetia",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/doorpost/resume"
+    "url": "git+https://github.com/doorpost/resume.git"
   },
   "dependencies": {
     "chalk": "^2.4.2",
@@ -26,5 +26,9 @@
     "doorpost",
     "chace",
     "zhang"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/doorpost/resume/issues"
+  },
+  "homepage": "https://github.com/doorpost/resume#readme"
 }
