@@ -25,7 +25,11 @@ var prompts = {
         }))
     );
     console.log("\n")
+<<<<<<< HEAD
     console.log(chalk.red.bold(" \u{1F916} 张枨 Student & Developer") + " \n\n + Believes in possibilities and always trying to look at the positive, brighter side of the story. \n + 相信各种可能性，总是试图看到故事积极、光明的一面。\n\n • I care a lot about building things that are genuinely useful and a pleasure to use. \n • Keep things simple, innovate and move quickly. Have empathy and make deliberate choices.")
+=======
+    console.log(chalk.red.bold(" \u{1F916} 张枨 Developer from Chinese mainland.") + " \n\n + Believes in possibilities and always trying to look at the positive, brighter side of the story. \n + 相信各种可能性，总是试图看到故事积极、光明的一面。\n\n • I care a lot about building things that are genuinely useful and a pleasure to use. \n • Keep things simple, innovate and move quickly. Have empathy and make deliberate choices.")
+>>>>>>> 5e6bd2b98eec1179f112551fceb78ccd2feb032b
     console.log("\n")    
     menu();  
 })();

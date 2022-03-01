@@ -1,6 +1,10 @@
 {
   "name": "zhangcheng",
+<<<<<<< HEAD
   "version": "0.1.7",
+=======
+  "version": "0.1.8",
+>>>>>>> 5e6bd2b98eec1179f112551fceb78ccd2feb032b
   "description": "interactive command line resume",
   "main": "./index.js",
   "scripts": {
